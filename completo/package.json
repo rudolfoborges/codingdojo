@@ -1,0 +1,17 @@
+{
+  "name": "codingdojo",
+  "version": "1.0.0",
+  "description": "Primeiro Coding Dojo do Solutis Hacker Club",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Solutis Hacker Club",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "csvtojson": "^0.4.3",
+    "express": "^4.13.3",
+    "fs": "0.0.2"
+  }
+}

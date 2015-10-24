@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Primeiro Coding DOJO</title>
+
+	<link rel="stylesheet" href="lib/normalize-css/normalize.css">
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+	
+	<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+	<!-- Angular App Modules -->
+	<script type="text/javascript" src="angular.app.config.js"></script>
+	<script type="text/javascript" src="angular.app.routes.js"></script>
+
+	<script type="text/javascript" src="controllers/angular.participante.controller.js"></script>
+	<script type="text/javascript" src="controllers/angular.sorteio.controller.js"></script>
+
+</head>
+<body ng-app="solutis.codingdojo">
+	
+	<div class="container">
+		<div class="page-header">
+        	<h1>Coding DOJO  - Sorteio</h1>
+        	<p class="lead">
+        		
+        		<div class="row">
+  					<div class="col-md-8">Primeiro Coding DOJO do Solutis Hacker Club.</div>
+  					<div class="col-md-2 col-md-offset-2">
+  						<a class="btn btn-primary" href="/#!/sorteio" ng-if="showBtn">Sorteio</a>
+  					</div>
+				</div>
+        	</p>
+
+    	</div>
+
+    	<ui-view></ui-view>
+	</div>
+
+
+	
+
+	<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

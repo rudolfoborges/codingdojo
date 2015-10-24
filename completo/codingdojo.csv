@@ -1,0 +1,6 @@
+nome,contrato,rg,sorteio
+Programador A,Contrato A,9999999,sim
+Programador B,Contrato A,9999999,sim
+Programador C,Contrato B,9999999,sim
+Programador D,Contrato C,9999999,nao
+Analista de Teste,Contrato A,999999,sim

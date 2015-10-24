@@ -1,0 +1,30 @@
+{
+  "name": "codingdojo",
+  "version": "1.0.0",
+  "description": "Primero Coding Dojo do Solutis Hacker Club",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Solutis Hacker Club"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "normalize-css": "normalize.css#~3.0.3",
+    "font-awesome": "fontawesome#~4.4.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-route": "~1.4.7"
+  }
+}
